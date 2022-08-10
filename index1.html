@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unpkg.com/formiojs@4.15.0-rc.13/dist/formio.full.min.css'>
+    <script src='https://unpkg.com/formiojs@4.15.0-rc.13/dist/formio.full.min.js'></script>
+
+  </head>
+  <body>
+    <div id="formio"></div>
+    <button id="change">Change submission</button>
+    <script type='text/javascript'>
+      window.onload = function() {
+        Formio.createForm(document.getElementById('formio'), 'https://ktbexzuvoeqrhlf.form.io/selecttests').then(function(form) {
+
+      });
+    };
+  
+    </script>
+  </body>
+</html>
+
+<!-- <!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Custom text and background colors</title>
+  <script src="https://cdn.ckeditor.com/4.14.1/standard-all/ckeditor.js"></script>
+</head>
+
+<body>
+  <textarea cols="80" id="editor2" name="editor2" rows="10" data-sample-short>&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href=&quot;https://ckeditor.com/&quot;&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
+  <script>
+    CKEDITOR.replace('editor2', {
+
+      extraPlugins: 'colorbutton'
+    });
+  </script>
+</body>
+
+</html> -->
